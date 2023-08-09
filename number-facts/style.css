@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    position: relative;
+    margin-top: 10px;
+}
+
+button {
+    position: relative;
+    margin-top: 10px;
+}
+
+li {
+    position: relative;
+    margin-top: 10px;
+}

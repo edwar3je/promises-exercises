@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css"/>
+  <title>Number Facts</title>
+</head>
+
+<body>
+   <h1>Number Facts</h1>
+   <div class="container">
+      <h2>Get 4 facts for a specific number</h2>
+      <p><i>Note:</i> You cannot enter a number that is less than 0</p>
+      <form>
+         <input type="text" placeholder="Enter your favorite number" class="favorite-number">
+         <button class="four-facts">Submit</button>
+      </form>
+      <h2>Get 1 fact for each number in a range</h2>
+      <p><i>Note:</i> The minimum value must be smaller than the max value and the difference can't be greater than 10</p>
+      <form>
+        <input type="text" placeholder="min range value" class="min-value">
+        <input type="text" placeholder="max range value" class="max-value">
+        <button class="range-facts">Submit</button>
+      </form>
+      <ul class="facts"></ul>
+    </div>
+   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+   <script src="https://unpkg.com/axios/dist/axios.js"></script>
+   <script src="numbers.js"></script>
+</body>
+
+</html>
